@@ -1,4 +1,15 @@
 # Dynamic Password Authentication System
+-----------------------------------------------------------------------------------------
+## NOTE:
+
+This project uses the RockYou common password list for validation.  
+Due to size constraints, it is not included in the repository.
+
+Download it from the following source:
+https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
+
+Place the file in the project root directory as `rockyou.txt`.
+-----------------------------------------------------------------------------------------
 
 This project is a Flask-based web application that demonstrates a secure authentication system with dynamic password generation, password validation, and account recovery features.  
 It combines password strength checking with multiple dynamic update algorithms to improve security.
